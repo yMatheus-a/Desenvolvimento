@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int vet[14];
+    char nome[25];
+    int qtd = 0;
+
+    printf("digite seu nome: ");
+    gets(nome);
+
+    for (int i = 1; i <= 14; i++){
+        if((nome[i] == "a")||(nome[i] == "A")){
+            qtd++;
+    }
+    printf("a quantidad de a eh %d \n", qtd);
+
+    }
+}
+
